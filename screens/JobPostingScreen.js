@@ -1,24 +1,17 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, Button } from 'react-native';
+import Form from '../components/Form';
 
 const JobPostingScreen = () => {
+  const [showForm, setShowForm] = useState(false);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.heading}>Job Posting Screen</Text>
+    <View>
+      <Text>Job Posting Screen</Text>
+      <Button title="Create Job" onPress={() => setShowForm(true)} />
+      <Form isVisible={showForm} onClose={() => setShowForm(false)} />
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  heading: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-});
 
 export default JobPostingScreen;
