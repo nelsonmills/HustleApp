@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tsC93HbEPS6iZI04rcBw/X3FE23zq2KabDR2ToDVCeEnJ28pLVpdN+3kQnen8/OuC/G39Rmrvi8bEP88zDYV5A==",
+  "success": true,
+  "projectFilePath": "/Users/nmills/Projects/HustleApp/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/nmills/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nmills/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nmills/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/nmills/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/nmills/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/nmills/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
